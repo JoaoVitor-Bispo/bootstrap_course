@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Alerts, badges and lists</title>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="alert alert-success alert-dismissible">
+            <h4 class="alert-heading"><i class="bi-info-circle"></i>Alert</h4>
+
+            <p>This is a simple alert.</p>
+            <a href="#" class="alert-link">Click here.</a>
+
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        <hr>
+
+        <p>Example of <span class="badge bg-secondary fs-6">Badge</span></p>
+        <button class="btn btn-primary position-relative">Notifications
+            <p class="badge bg-danger position-absolute top-0 start-100 translate-middle">5</p>
+        </button>
+        <hr>
+
+        <div class="list-group">
+            <li class="list-group-item">Item 1</li>
+            <li class="list-group-item">Item 2</li>
+            <li class="list-group-item">Item 3</li>
+            <li class="list-group-item">Item 4</li>
+            <li class="list-group-item">Item 5</li>
+        </div>
+
+        <div class="list-group my-3">
+            <button class="list-group-item list-group-item-action">Botão 1</button>
+            <button class="list-group-item list-group-item-action">Botão 2</button>
+            <button class="list-group-item list-group-item-action">Botão 3</button>
+            <button class="list-group-item list-group-item-action">Botão 4</button>
+            <button class="list-group-item list-group-item-action">Botão 5</button>
+        </div>
+
+        <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action">Link 1</a>
+            <a href="#" class="list-group-item list-group-item-action">Link 2</a>
+            <a href="#" class="list-group-item list-group-item-action">Link 3</a>
+            <a href="#" class="list-group-item list-group-item-action">Link 4</a>
+            <a href="#" class="list-group-item list-group-item-action">Link 5</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
