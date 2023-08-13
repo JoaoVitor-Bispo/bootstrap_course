@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="aula30.js" defer></script>
+    <title>Mensagens flutuantes</title>
+</head>
+<body>
+    <div class="container p-5">
+        <button class="btn btn-outline-primary" id="btnToast">Criar</button>
+
+        <div class="toast-container top-0 end-0 p-3" id="toastContainer"></div>
+
+            <div class="toast" id="toast">
+                <div class="toast-header">
+                    <span class="bi-info-circle lead"> <strong>Info</strong></span>
+                    <button data-bs-dismiss="toast" class="btn-close ms-auto"></button>
+                </div>
+                <div class="toast-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, eum?</p>
+                </div>
+            </div>
+
+        <!-- <div class="toast">
+            <div class="toast-header">
+                <span class="bi-info-circle lead"> <strong>Info</strong></span>
+                <button data-bs-dismiss="toast" class="btn-close ms-auto"></button>
+            </div>
+
+            <div class="toast-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, corporis.</p>
+
+                <div class="buttons">
+                    <button class="btn btn-dark me-5 ms-4 rounded-0">Configurações</button>
+                    <button class="btn btn-primary rounded-0" data-bs-dismiss="toast">Fechar</button>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
